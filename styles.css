@@ -1,52 +1,75 @@
 /* ##########
 	General Styles
 ############ */
-html {
-	min-height: 100%;
-}
-
-body {
-	background-image: url("images/tree.jpg");
-	background-size: 100% 100%;
+html, body {
+	margin: 0px;
+	height: 100%;
+	min-width: 850px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 }
 
 /* ##########
 	Header
 ############ */
-.mainHeader {
-	margin: auto;
-	width: 400px;
-	background-color: white;
-	border: 4px solid black;
-	margin-top: 30px;
-	margin-bottom: 30px;
+
+.mainheader {
+	background-color: #50A162;
 }
 
-.mainHeader h1 {
+.mainheader h1 {
+	margin: 0px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	padding-left: 15px;
 	font-size: 42px;
-	text-align: center;
-	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	color: white;
+	text-align: left;
 	text-transform: uppercase;
-	letter-spacing: 8px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	letter-spacing: 3px;
+}
+
+/* ##########
+	Form Panel
+############ */
+.form {
+	width: 100%;
+	background-color: #C0DEC7;
+	padding-bottom: 10px;
+}
+
+.memform .form p {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 0px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+ .biofield {
+	 position: relative;
+	 top: 17px;
+ }
+
+.buttons {
+	display: inline;
+	padding-left: 20px;
 }
 
 /* ##########
 	Main Tree Area
 ############ */
-.treeArea {
-	margin-right: 100px;
-	margin-left: 100px;
+.treearea {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	text-align: center;
+	background-color: #6A959D;
 }
 
-.famMemBoxes {
-	border: 4px solid black;
+.fammemboxes {
+	border: 1px solid black;
 	border-radius: 10px;
 	width: 200px;
 	height: 150px;
@@ -58,7 +81,7 @@ body {
 /* ##########
 	Box Content
 ############ */
-.memName {
+.memname {
 	font-size: 20px;
 	letter-spacing: 1px;
 	margin: 10px;
@@ -88,17 +111,19 @@ body {
 }
 
 /* ##########
-	Buttons
+	Footer
 ############ */
 
-.actionItems {
-	padding-top: 30px;
+footer {
+	width: 100%;
+	padding: 30px;
+	background-color: #E8F5D4;
+	text-align: center;
+	font-size: 18px;
 }
 
-.addMem {
-	display: block;
-	margin: auto;
-	padding: 5px;
-	border-radius: 10px;
-	font-size: 14px;
+.footer p {
+	margin: 0px;
+	font-size: 16px;
+	letter-spacing: 2px;
 }
