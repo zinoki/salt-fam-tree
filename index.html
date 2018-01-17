@@ -1,48 +1,74 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1">
-    <title>Famtree</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	<title>Branches - Shareable Family Trees</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+	<link rel="shortcut icon" href="images/treeicon.ico" type="images/treeicon/ico">
+	<link rel="icon" href="images/treeicon.ico" type="images/treeicon">
+	<link rel="stylesheet" href="styles.css">
+</head>
 
-  </body>
+</body>
 
-    <header class="mainHeader">
-      <h1>Famtree</h1>
-    </header>
+<header class="mainheader">
+	<img src="images/logo.png" alt="Branches Logo" width="65" height="80" class="logo">
+	<h1>Branches</h1>
+</header>
 
-    <nav>
-    </nav>
+<aside class="memform">
+	<form class="form">
+		<p>
+			<label for="name">Name:</label> <br>
+			<input type="text" name="name">
+		</p>
+		<p>
+			<label for="nickname">Nick Name:</label>
+			<br>
+			<input type="text" name="nickname">
+		</p>
+		<p class="biofield">
+			<label for="bio">Bio:</label>
+			<br>
+			<textarea name="bio" cols="50" rows="2"></textarea>
+		</p>
+		<div class="buttons">
+			<input type="submit" value="Add Member" class="btn">
+			<input type="reset" class="btn">
+		</div>
+	</form>
+</aside>
 
-    <main>
-      <section class="treeArea">
-        <article class="famMemBoxes">
-          <h2 class="memName">Paulo Ramos</h2>
-          <h3 class="nick">Brown Drip</h3>
-          <p class="bio">A brown dude born in a LA. Learning how to code. He likes pizza and history. This is just placeholder text to test this box on this site.</p>
-        </article>
-        <article class="famMemBoxes">
-          <h2 class="memName">Zachary Inouye</h2>
-          <h3 class="nick">Nickname</h3>
-          <p class="bio">Mini Bio...</p>
-        </article>
-        <article class="famMemBoxes">
-          <h2 class="memName">Alex Berman</h2>
-          <h3 class="nick">Nickname</h3>
-          <p class="bio">Mini Bio...</p>
-        </article>
-        <article class="famMemBoxes">
-          <h2 class="memName">Kevin Mulhbach</h2>
-          <h3 class="nick">Nickname</h3>
-          <p class="bio">Mini Bio...</p>
-        </article>
-      </section>
-      <section class="actionItems">
-        <button class="addMem"type="button" name="button">Add Member</button>
-      </section>
-    </main>
-  </body>
+<section class="treearea">
+	<article class="fammemboxes">
+		<h2 class="memname">Paulo Ramos</h2>
+		<h3 class="nick">Brown Drip</h3>
+		<p class="bio">A brown dude born in a LA. Learning how to code. He likes pizza and history. This is just placeholder text to test this box on this site.</p>
+	</article>
+	<article class="fammemboxes">
+		<h2 class="memname">Zachary Inouye</h2>
+		<h3 class="nick">Nickname</h3>
+		<p class="bio">Mini Bio...</p>
+	</article>
+	<article class="fammemboxes">
+		<h2 class="memname">Alex Berman</h2>
+		<h3 class="nick">Nickname</h3>
+		<p class="bio">Mini Bio...</p>
+	</article>
+	<article class="fammemboxes">
+		<h2 class="memname">Kevin Mulhbach</h2>
+		<h3 class="nick">Nickname</h3>
+		<p class="bio">Mini Bio...</p>
+	</article>
+</section>
+
+<footer class="footer">
+	<p>SALT™</p>
+	<p>2018</p>
+</footer>
+
+</body>
 </html>
