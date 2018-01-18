@@ -1,10 +1,11 @@
 /* ##########
 	General Styles
 ############ */
+
 html, body {
 	margin: 0px;
 	height: 100%;
-	min-width: 850px;
+	min-width: 990px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 }
@@ -22,13 +23,11 @@ html, body {
 	position: sticky;
 	top: 17px;
 	padding-left: 30px;
-	padding-top: 13px;
 }
 
 .mainheader h1 {
 	display: inline-block;
 	margin: 0px;
-	padding-top: 30px;
 	padding-bottom: 20px;
 	padding-left: 12px;
 	font-size: 42px;
@@ -40,8 +39,9 @@ html, body {
 }
 
 /* ##########
-	Form Panel
+	Form
 ############ */
+
 .form {
 	width: 100%;
 	background-color: #C0DEC7;
@@ -60,10 +60,10 @@ html, body {
 	border: 1px solid black;
 }
 
- .biofield {
-	 position: relative;
-	 top: 17px;
- }
+.biofield {
+	position: relative;
+	top: 17px;
+}
 
 .buttons {
 	display: inline;
@@ -71,63 +71,11 @@ html, body {
 }
 
 /* ##########
-	Main Tree Area
-############ */
-.treearea {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	background-color: #6A959D;
-}
-
-.fammemboxes {
-	border: 1px solid black;
-	border-radius: 10px;
-	width: 200px;
-	height: 150px;
-	background-color: white;
-	text-align: center;
-	margin: 10px;
-}
-
-/* ##########
-	Box Content
-############ */
-.memname {
-	font-size: 20px;
-	letter-spacing: 1px;
-	margin: 10px;
-	margin-top: 13px;
-}
-
-.nick {
-	margin: 0px;
-  quotes: '"' '"' "'" "'";
-	font-size: 14px;
-	font-style: italic;
-}
-.nick::before {
-  content: open-quote;
-}
-.nick:after {
-  content: close-quote;
-}
-
-.bio {
-	margin-top: 8px;
-	font-size: 12px;
-	text-align: left;
-	padding: 2px;
-	padding-left: 6px;
-	padding-right: 4px;
-}
-
-/* ##########
 	Footer
 ############ */
 
 footer {
-	width: 100%;
+	box-shadow: 0px 500px 0px 500px #E8F5D4;
 	padding: 30px;
 	background-color: #E8F5D4;
 	text-align: center;
